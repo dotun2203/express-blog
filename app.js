@@ -4,6 +4,7 @@ const connectDB = require("./config/db");
 const authRoutes = require("./routes/authRoutes");
 const postRoutes = require("./routes/postRoutes");
 const morgan = require("morgan");
+const mongoose = require("mongoose");
 
 dotenv.config();
 
